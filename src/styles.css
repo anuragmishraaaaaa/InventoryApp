@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("assets/Images/inventory.png");
+    background-size: 1300px 650px;
+    background-repeat: no-repeat;   
+}

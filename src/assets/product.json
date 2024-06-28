@@ -1,0 +1,42 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "productName": "break pad",
+      "manufacturer": "TATA",
+      "availableQuantity": 500,
+      "reodarLevel": "High",
+      "color": "default",
+      "details": "hydraulic disk break",
+      "supplier": {
+        "supplierName": "Mr Vaid",
+        "supplierCompanyName": "Vaid Automobile parts limited",
+        "supplierEmail": "vaild@gmail.com",
+        "contactNumber": 9876543210,
+        "address": "karvenagar",
+        "city": "pune",
+        "pincode": 411052,
+        "state": "Maharashtra"
+      }
+    },
+    {
+      "id": null,
+      "productName": "break pad",
+      "manufacturer": "Tata",
+      "availableQuantity": "500",
+      "reodarLevel": null,
+      "color": "white",
+      "details": "hydraulic disk break",
+      "supplier": {
+        "supplierName": null,
+        "supplierCompanyName": null,
+        "supplierEmail": null,
+        "contactNumber": null,
+        "address": null,
+        "city": null,
+        "pincode": null,
+        "state": null
+      }
+    }
+  ]
+}

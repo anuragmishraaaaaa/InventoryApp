@@ -1,0 +1,31 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+.inputcontainer{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    border-color: yellow;
+    border-width: 3px;
+}
+.inputGroup{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    margin-top: 10px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: black;
+    color:black;
+    font-weight: bold;
+    width:200px;
+    text-align: center;
+}
+input::placeholder{
+    color: black;
+    font-weight: lighter;
+}

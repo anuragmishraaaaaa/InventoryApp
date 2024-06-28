@@ -1,0 +1,69 @@
+<form [formGroup]="prodForm" (ngSubmit)="onSubmit()">
+<div class="inputContainer">
+    <div class="inputGroup bg-primary mb-3">
+        <h3>Submit Product Details.. <i class="fa fa-list-alt" aria-hidden="true"></i> </h3>
+    </div>
+    <div class="inputGroup">
+        <div>
+            <input type="text" formControlName="productName" placeholder="Enter Product Details">
+        </div>
+        <div>
+            <input type="text" formControlName="manufacturer" placeholder="Enter Manufacturer">
+        </div>
+    </div>
+    <div class="inputGroup">
+        <div>
+            <input type="text" formControlName="availableQuantity" placeholder="Enter Available Quantity">
+        </div>
+        <div>
+            <input type="text" formControlName="reoderLevel" placeholder="Enter Reoder Level">
+        </div>
+    </div>
+    <div class="inputGroup">
+        <div>
+            <input type="text" formControlName="color" placeholder="Enter Product Color">
+        </div>
+        <div>
+            <input type="text" formControlName="details" placeholder="Enter Product Details">
+        </div>
+    </div>
+    <div formControlName="supplier">
+        <div class="inputGroup">
+            <div>
+                <input type="text" formControlName="supplierName" placeholder="Enter Supplier Name">
+            </div>
+            <div>
+                <input type="text" formControlName="supplierCompanyName" placeholder="Enter Supplier Company Name">
+            </div>
+        </div>
+        <div class="inputGroup">
+            <div>
+                <input type="text" formControlName="supplierEmail" placeholder="Enter Supplier Email">
+            </div>
+            <div>
+                <input type="text" formControlName="contactNumber" placeholder="Enter Contact Number">
+            </div>
+        </div>
+        <div class="inputGroup">
+            <div>
+                <input type="text" formControlName="address" placeholder="Enter Supplier Address">
+            </div>
+            <div>
+                <input type="text" formControlName="city" placeholder="Enter Supplier City">
+            </div>
+        </div>
+        <div class="inputGroup">
+            <div>
+                <input type="text" formControlName="pincode" placeholder="Enter Supplier Pincode">
+            </div>
+            <div>
+                <input type="text" formControlName="state" placeholder="Enter Supplier state">
+            </div>
+        </div>
+        <div class="inputGroup mb-3">
+            <button class="btn btn-primary hover">Submit</button>
+        </div>
+    </div>
+</div>
+
+</form>
